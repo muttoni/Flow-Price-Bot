@@ -12,7 +12,7 @@ console.log("Found Token - ", !!process.env.TOKEN);
 
 async function getPrice() {
   try {
-    const raw = await fetch("https://api.coinbase.com/v2/prices/eth-usd/spot");
+    const raw = await fetch("https://api.coinbase.com/v2/prices/flow-usd/spot");
     const { data } = (await raw.json()) as Response;
     return data.amount;
   } catch (e) {
@@ -50,5 +50,5 @@ main();
 //--
 
 type Response = {
-  data: { base: "ETH"; currency: "USD"; amount: string };
+  data: { base: "FLOW"; currency: "USD"; amount: string };
 };
