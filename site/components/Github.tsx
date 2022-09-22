@@ -5,7 +5,7 @@ export default function Github() {
     <a
       rel="noreferrer"
       className="github"
-      href="https://github.com/hjoelh/Eth-Price-Bot"
+      href="https://github.com/muttoni/Flow-Price-Bot"
       target="_blank"
       aria-label="GitHub"
       style={{ color: "black", fontSize: "30px" }}

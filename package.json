@@ -1,5 +1,5 @@
 {
-  "name": "eth-price-bot",
+  "name": "flow-price-bot",
   "version": "1.0.0",
   "description": "",
   "main": "build/bot.js",

@@ -5,21 +5,20 @@ export default function HeadMeta(){
   <Head>
       <title>Eth Price Discord Bot</title>
       <script async src="https://cdn.splitbee.io/sb.js"></script>
-      <meta name="google-site-verification" content="0L-OGw7wusEygK1F_ra_origg8lgYJsgfezVrpvljJw" />
-      <meta name="title" content="Eth Price Discord Bot" />
-      <meta name="description" content="Ethereum Price Bot for Discord"/>
+      <meta name="title" content="Flow Price Discord Bot" />
+      <meta name="description" content="Flow Price Bot for Discord"/>
 
       <meta property="og:type" content="website"/>
-      <meta property="og:url" content="https://eth-price-discord-bot.vercel.app"/>
-      <meta property="og:title" content="Eth Price Discord Bot"/>
-      <meta property="og:description" content="Ethereum Price Bot for Discord"/>
-      <meta property="og:image" content="https://i.imgur.com/DF2mVL0.jpg"/>
+      <meta property="og:url" content="https://flow-price-bot.vercel.app"/>
+      <meta property="og:title" content="Flow Price Discord Bot"/>
+      <meta property="og:description" content="Flow Price Bot for Discord"/>
+      <meta property="og:image" content=""/>
 
       <meta property="twitter:card" content="summary_large_image"/>
-      <meta property="twitter:url" content="https://eth-price-discord-bot.vercel.app"/>
-      <meta property="twitter:title" content="Eth Price Discord Bot"/>
-      <meta property="twitter:description" content="Ethereum Price Bot for Discord"/>
-      <meta property="twitter:image" content="https://i.imgur.com/DF2mVL0.jpg" />
+      <meta property="twitter:url" content="https://flow-price-bot.vercel.app"/>
+      <meta property="twitter:title" content="Flow Price Discord Bot"/>
+      <meta property="twitter:description" content="Flow Price Bot for Discord"/>
+      <meta property="twitter:image" content="" />
   </Head>
-   );
+  );
 }

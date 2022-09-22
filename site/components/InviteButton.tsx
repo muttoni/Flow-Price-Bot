@@ -4,7 +4,7 @@ import { FaDiscord } from "react-icons/fa";
 export default function InviteButton() {
   return (
     <Button>
-      <Link href="http://bit.ly/ethbotdiscord">Invite to your server</Link>
+      <Link href="https://discord.com/api/oauth2/authorize?client_id=1022520999478034493&permissions=0&scope=bot">Invite to your server</Link>
 
       <IconWrap>
         <FaDiscord />
