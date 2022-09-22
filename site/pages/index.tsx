@@ -5,14 +5,14 @@ import InviteButton from "../components/InviteButton";
 import useGetFlowPrice from "../hooks/useGetFlowPrice";
 
 export default function Index() {
-  const { price } = useGetFlowPrice();
+  const { priceAmount, priceChange } = useGetFlowPrice();
 
   return (
     <Container>
       <DiscordBot
         image="/favicon.png"
-        name="Flow Price"
-        status={`Watching $${price}`}
+        name="Flow Bot"
+        status={`$${parseFloat(priceAmount).toFixed(2)} (${parseFloat(priceChange).toFixed(1)}% 24H)`}
         size={1.8}
         style={{ boxShadow: "$1" }}
         isVerified
